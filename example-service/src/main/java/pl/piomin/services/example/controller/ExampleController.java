@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/example")
 public class ExampleController {
 
-//    @Value("${spring.application.instanceId}")
+    @Value("${eureka.instance.instanceId}")
     private String instanceId;
 
     @GetMapping
