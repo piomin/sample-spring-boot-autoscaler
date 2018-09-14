@@ -6,6 +6,10 @@ server:
 eureka:
   instance:
     instanceId: ${spring.cloud.client.hostname}:${spring.application.name}:${random.int[1,999999]}
+  client:
+    serviceUrl:
+      defaultZone: ${EUREKA_URL:http://localhost:8761/eureka/}
 
 management:
   endpoints.web.exposure.include: '*'
+  endpoint.shutdown.enabled: true
