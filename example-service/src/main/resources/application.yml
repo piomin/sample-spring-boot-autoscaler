@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: example-service
+
+server:
+  port: ${PORT:0}
