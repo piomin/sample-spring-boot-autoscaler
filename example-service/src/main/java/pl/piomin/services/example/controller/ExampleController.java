@@ -14,7 +14,12 @@ public class ExampleController {
 
     @GetMapping
     public String test() {
-       return "I'm " + instanceId;
+        try {
+            Thread.sleep(1000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+        return "I'm " + instanceId;
     }
 
 }
