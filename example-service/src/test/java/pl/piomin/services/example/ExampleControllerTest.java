@@ -1,4 +1,4 @@
-package pl.piomin.services;
+package pl.piomin.services.example;
 
 import org.junit.Assert;
 import org.junit.Test;
