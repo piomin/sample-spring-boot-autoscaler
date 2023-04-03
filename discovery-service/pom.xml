@@ -13,6 +13,10 @@
     <artifactId>discovery-service</artifactId>
     <version>1.1-SNAPSHOT</version>
 
+    <properties>
+        <sonar.moduleKey>${project.artifactId}</sonar.moduleKey>
+    </properties>
+
     <dependencies>
         <dependency>
             <groupId>org.springframework.cloud</groupId>
