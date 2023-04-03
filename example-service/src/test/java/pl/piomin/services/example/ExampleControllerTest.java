@@ -1,18 +1,16 @@
 package pl.piomin.services.example;
 
-import org.junit.Assert;
-import org.junit.Test;
-import org.junit.runner.RunWith;
+import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
-import org.springframework.test.context.junit4.SpringRunner;
+
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
 @SpringBootTest
-@RunWith(SpringRunner.class)
 public class ExampleControllerTest {
 
     @Test
     public void test() throws Exception {
-        Assert.assertTrue(true);
+        assertTrue(true);
     }
 
 }
