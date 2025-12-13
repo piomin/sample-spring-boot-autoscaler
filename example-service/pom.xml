@@ -8,11 +8,11 @@
     <parent>
         <groupId>pl.piomin.services</groupId>
         <artifactId>sample-spring-boot-autoscaler</artifactId>
-        <version>1.1-SNAPSHOT</version>
+        <version>1.2-SNAPSHOT</version>
     </parent>
 
     <artifactId>example-service</artifactId>
-    <version>1.1-SNAPSHOT</version>
+    <version>1.2-SNAPSHOT</version>
 
     <properties>
         <sonar.moduleKey>${project.artifactId}</sonar.moduleKey>
