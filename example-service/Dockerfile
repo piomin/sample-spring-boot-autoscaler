@@ -1,4 +1,4 @@
-FROM eclipse-temurin:25.0.1_8-jdk-alpine
+FROM eclipse-temurin:25.0.2_10-jdk-alpine
 ENV APP_FILE example-service-1.0-SNAPSHOT.jar
 ENV APP_HOME /usr/apps
 EXPOSE 8080
